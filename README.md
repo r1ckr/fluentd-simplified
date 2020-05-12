@@ -1,6 +1,6 @@
 # Fluentd Simplified
 
-This repo is used as the source code of [this]() post.
+This repo is used as the source code of [this](https://scaleout.ninja/post/fluentd-simplified/) post.
 
 ## Run Fluentd
 ```bash
