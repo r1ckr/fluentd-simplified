@@ -1,0 +1,54 @@
+{"log":"2019/07/31 22:19:52 [notice] 1#0: using the \"epoll\" event method\n","stream":"stderr","time":"2019-07-31T22:19:52.3744179Z"}
+{"log":"2019/07/31 22:19:52 [notice] 1#0: openresty/1.13.6.2\n","stream":"stderr","time":"2019-07-31T22:19:52.3744978Z"}
+{"log":"2019/07/31 22:19:52 [notice] 1#0: built by gcc 8.3.0 (Alpine 8.3.0) \n","stream":"stderr","time":"2019-07-31T22:19:52.3745193Z"}
+{"log":"2019/07/31 22:19:52 [notice] 1#0: OS: Linux 4.9.125-linuxkit\n","stream":"stderr","time":"2019-07-31T22:19:52.3745468Z"}
+{"log":"2019/07/31 22:19:52 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576\n","stream":"stderr","time":"2019-07-31T22:19:52.3745675Z"}
+{"log":"2019/07/31 22:19:52 [notice] 1#0: start worker processes\n","stream":"stderr","time":"2019-07-31T22:19:52.3747257Z"}
+{"log":"2019/07/31 22:19:52 [notice] 1#0: start worker process 32\n","stream":"stderr","time":"2019-07-31T22:19:52.3754634Z"}
+{"log":"2019/07/31 22:19:52 [notice] 1#0: start worker process 33\n","stream":"stderr","time":"2019-07-31T22:19:52.3762855Z"}
+{"log":"2019/07/31 22:19:52 [notice] 1#0: start worker process 34\n","stream":"stderr","time":"2019-07-31T22:19:52.3780695Z"}
+{"log":"2019/07/31 22:19:52 [notice] 1#0: start worker process 35\n","stream":"stderr","time":"2019-07-31T22:19:52.3793188Z"}
+{"log":"2019/07/31 22:19:52 [notice] 32#0: *1 [kong] init.lua:240 declarative config loaded from /usr/local/kong/declarative/kong.yml, context: init_worker_by_lua*\n","stream":"stderr","time":"2019-07-31T22:19:52.5168149Z"}
+{"log":"2019/07/31 22:19:52 [warn] 35#0: *3 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2019-07-31T22:19:52.5381038Z"}
+{"log":"2019/07/31 22:19:52 [warn] 35#0: *3 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2019-07-31T22:19:52.5403996Z"}
+{"log":"2019/07/31 22:19:52 [warn] 32#0: *1 [lua] mesh.lua:86: init(): no cluster_ca in declarative configuration: cannot use node in mesh mode, context: init_worker_by_lua*\n","stream":"stderr","time":"2019-07-31T22:19:52.5404661Z"}
+{"log":"172.17.0.1 - - [31/Jul/2019:22:20:14 +0000] \"GET / HTTP/1.1\" 404 48 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2019-07-31T22:20:14.0450708Z"}
+{"log":"172.17.0.1 - - [31/Jul/2019:22:20:18 +0000] \"GET /users HTTP/1.1\" 200 5658 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2019-07-31T22:20:18.2956349Z"}
+{"log":"172.17.0.1 - - [31/Jul/2019:22:20:37 +0000] \"GET / HTTP/1.1\" 200 6078 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2019-07-31T22:20:37.0308692Z"}
+{"log":"172.17.0.1 - - [31/Jul/2019:22:21:08 +0000] \"GET / HTTP/1.1\" 404 48 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2019-07-31T22:21:08.6972902Z"}
+{"log":"172.17.0.1 - - [31/Jul/2019:22:21:14 +0000] \"GET /users HTTP/1.1\" 200 5664 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2019-07-31T22:21:14.5361118Z"}
+{"log":"2019/07/31 22:24:50 [notice] 1#0: signal 3 (SIGQUIT) received, shutting down\n","stream":"stderr","time":"2019-07-31T22:24:50.5634962Z"}
+{"log":"2019/07/31 22:24:50 [notice] 33#0: gracefully shutting down\n","stream":"stderr","time":"2019-07-31T22:24:50.563553Z"}
+{"log":"2019/07/31 22:24:50 [notice] 35#0: gracefully shutting down\n","stream":"stderr","time":"2019-07-31T22:24:50.563576Z"}
+{"log":"2019/07/31 22:24:50 [notice] 32#0: gracefully shutting down\n","stream":"stderr","time":"2019-07-31T22:24:50.5775398Z"}
+{"log":"2020/05/10 17:04:16 [notice] 1#0: openresty/1.13.6.2\n","stream":"stderr","time":"2020-05-10T17:04:16.9103947Z"}
+{"log":"2020/05/10 17:04:16 [notice] 1#0: built by gcc 8.3.0 (Alpine 8.3.0) \n","stream":"stderr","time":"2020-05-10T17:04:16.9104631Z"}
+{"log":"2020/05/10 17:04:16 [notice] 1#0: OS: Linux 4.19.76-linuxkit\n","stream":"stderr","time":"2020-05-10T17:04:16.9105243Z"}
+{"log":"2020/05/10 17:04:16 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576\n","stream":"stderr","time":"2020-05-10T17:04:16.9105629Z"}
+{"log":"2020/05/10 17:04:16 [notice] 1#0: start worker processes\n","stream":"stderr","time":"2020-05-10T17:04:16.9106055Z"}
+{"log":"2020/05/10 17:04:16 [notice] 1#0: start worker process 32\n","stream":"stderr","time":"2020-05-10T17:04:16.9107434Z"}
+{"log":"2020/05/10 17:04:16 [notice] 1#0: start worker process 33\n","stream":"stderr","time":"2020-05-10T17:04:16.9125627Z"}
+{"log":"2020/05/10 17:04:16 [notice] 1#0: start worker process 34\n","stream":"stderr","time":"2020-05-10T17:04:16.9136522Z"}
+{"log":"2020/05/10 17:04:16 [notice] 1#0: start worker process 35\n","stream":"stderr","time":"2020-05-10T17:04:16.9146737Z"}
+{"log":"2020/05/10 17:04:16 [warn] 34#0: *3 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0423425Z"}
+{"log":"2020/05/10 17:04:16 [warn] 33#0: *2 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0428706Z"}
+{"log":"2020/05/10 17:04:16 [warn] 34#0: *3 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0456538Z"}
+{"log":"2020/05/10 17:04:16 [warn] 33#0: *2 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0464253Z"}
+{"log":"2020/05/10 17:04:16 [warn] 35#0: *4 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.047522Z"}
+{"log":"2020/05/10 17:04:16 [notice] 32#0: *1 [kong] init.lua:240 declarative config loaded from /usr/local/kong/declarative/kong.yml, context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0478064Z"}
+{"log":"2020/05/10 17:04:16 [warn] 34#0: *3 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0480812Z"}
+{"log":"2020/05/10 17:04:16 [warn] 33#0: *2 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0487617Z"}
+{"log":"2020/05/10 17:04:16 [warn] 35#0: *4 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0504436Z"}
+{"log":"2020/05/10 17:04:16 [warn] 34#0: *3 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.008 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0524846Z"}
+{"log":"2020/05/10 17:04:16 [warn] 35#0: *4 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0526819Z"}
+{"log":"2020/05/10 17:04:16 [warn] 33#0: *2 [lua] globalpatches.lua:47: sleep(): executing a blocking 'sleep' (0.008 seconds), context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0533388Z"}
+{"log":"2020/05/10 17:04:17 [warn] 32#0: *1 [lua] mesh.lua:86: init(): no cluster_ca in declarative configuration: cannot use node in mesh mode, context: init_worker_by_lua*\n","stream":"stderr","time":"2020-05-10T17:04:17.0556697Z"}
+{"log":"172.17.0.1 - - [10/May/2020:17:04:30 +0000] \"GET / HTTP/1.1\" 404 48 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2020-05-10T17:04:30.128395Z"}
+{"log":"172.17.0.1 - - [10/May/2020:17:05:38 +0000] \"GET /users HTTP/1.1\" 401 26 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2020-05-10T17:05:38.1334462Z"}
+{"log":"172.17.0.1 - - [10/May/2020:17:06:24 +0000] \"GET /users HTTP/1.1\" 499 0 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2020-05-10T17:06:24.9847022Z"}
+{"log":"172.17.0.1 - - [10/May/2020:17:07:09 +0000] \"GET /users HTTP/1.1\" 499 0 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2020-05-10T17:07:09.2228914Z"}
+{"log":"172.17.0.1 - - [10/May/2020:17:08:00 +0000] \"GET /users HTTP/1.1\" 499 0 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2020-05-10T17:08:00.6530792Z"}
+{"log":"172.17.0.1 - MyUser [10/May/2020:17:08:08 +0000] \"GET / HTTP/1.1\" 404 48 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2020-05-10T17:08:08.7096222Z"}
+{"log":"172.17.0.1 - MyUser [10/May/2020:17:08:13 +0000] \"GET /asdasd HTTP/1.1\" 404 48 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2020-05-10T17:08:13.0406445Z"}
+{"log":"172.17.0.1 - - [10/May/2020:17:08:19 +0000] \"GET /users HTTP/1.1\" 499 0 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2020-05-10T17:08:19.2148238Z"}
+{"log":"172.17.0.1 - - [10/May/2020:17:08:32 +0000] \"GET /users HTTP/1.1\" 499 0 \"-\" \"curl/7.59.0\"\n","stream":"stdout","time":"2020-05-10T17:08:32.7761279Z"}
