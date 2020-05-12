@@ -19,7 +19,3 @@ docker run -u root -ti --rm \
 -v $(pwd)/output:/output \
 fluent/fluentd:v1.10-debian-1 bash -c "gem install fluent-plugin-rewrite-tag-filter && fluentd -c /fluentd/etc/fluentd.conf -v"
 ```
-
-```editorconfig
-
-```
